@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.catanjunior.BoardController">
+    <children>
+        <Text layoutX="30.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cutlasses" wrappingWidth="64.99999999999994" />
+        <Circle fx:id="circle10" fill="#fdfdfd" layoutX="310.0" layoutY="70.0" onMouseClicked="#circleclick10" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle21" fill="#fdfdfd" layoutX="350.0" layoutY="70.0" onMouseClicked="#circleclick21" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle22" fill="#fdfdfd" layoutX="370.0" layoutY="105.0" onMouseClicked="#circleclick22" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle14" fill="#fdfdfd" layoutX="310.0" layoutY="210.0" onMouseClicked="#circleclick14" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle25" fill="#fdfdfd" layoutX="353.0" layoutY="210.0" onMouseClicked="#circleclick25" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle11" fill="#fdfdfd" layoutX="290.0" layoutY="105.0" onMouseClicked="#circleclick11" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle16" fill="#fdfdfd" layoutX="310.0" layoutY="280.0" onMouseClicked="#circleclick16" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle27" fill="#fdfdfd" layoutX="350.0" layoutY="280.0" onMouseClicked="#circleclick27" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle18" fill="#fdfdfd" layoutX="310.0" layoutY="350.0" onMouseClicked="#circleclick18" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle29" fill="#fdfdfd" layoutX="350.0" layoutY="350.0" onMouseClicked="#circleclick29" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle13" fill="#fdfdfd" layoutX="290.0" layoutY="175.0" onMouseClicked="#circleclick13" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle24" fill="#fdfdfd" layoutX="370.0" layoutY="175.0" onMouseClicked="#circleclick24" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle15" fill="#fdfdfd" layoutX="290.0" layoutY="245.0" onMouseClicked="#circleclick15" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle26" fill="#fdfdfd" layoutX="370.0" layoutY="245.0" onMouseClicked="#circleclick26" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle17" fill="#fdfdfd" layoutX="290.0" layoutY="315.0" onMouseClicked="#circleclick17" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle28" fill="#fdfdfd" layoutX="370.0" layoutY="315.0" onMouseClicked="#circleclick28" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle20" fill="#fdfdfd" layoutX="310.0" layoutY="420.0" onMouseClicked="#circleclick20" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle31" fill="#fdfdfd" layoutX="350.0" layoutY="420.0" onMouseClicked="#circleclick31" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle19" fill="#fdfdfd" layoutX="290.0" layoutY="385.0" onMouseClicked="#circleclick19" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle30" fill="#fdfdfd" layoutX="370.0" layoutY="385.0" onMouseClicked="#circleclick30" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle12" fill="#fdfdfd" layoutX="310.0" layoutY="140.0" onMouseClicked="#circleclick12" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle23" fill="#fdfdfd" layoutX="350.0" layoutY="140.0" onMouseClicked="#circleclick23" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle34" fill="#fdfdfd" layoutX="410.0" layoutY="175.0" onMouseClicked="#circleclick34" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle36" fill="#fdfdfd" layoutX="410.0" layoutY="245.0" onMouseClicked="#circleclick36" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle38" fill="#fdfdfd" layoutX="410.0" layoutY="315.0" onMouseClicked="#circleclick38" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle32" fill="#fdfdfd" layoutX="410.0" layoutY="105.0" onMouseClicked="#circleclick32" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle40" fill="#fdfdfd" layoutX="410.0" layoutY="385.0" onMouseClicked="#circleclick40" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle35" fill="#fdfdfd" layoutX="430.0" layoutY="210.0" onMouseClicked="#circleclick35" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle37" fill="#fdfdfd" layoutX="430.0" layoutY="280.0" onMouseClicked="#circleclick37" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle33" fill="#fdfdfd" layoutX="430.0" layoutY="140.0" onMouseClicked="#circleclick33" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle39" fill="#fdfdfd" layoutX="430.0" layoutY="350.0" onMouseClicked="#circleclick39" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle4" fill="#fdfdfd" layoutX="230.0" layoutY="210.0" onMouseClicked="#circleclick4" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle6" fill="#fdfdfd" layoutX="230.0" layoutY="280.0" onMouseClicked="#circleclick6" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle8" fill="#fdfdfd" layoutX="230.0" layoutY="350.0" onMouseClicked="#circleclick8" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle3" fill="#fdfdfd" layoutX="250.0" layoutY="175.0" onMouseClicked="#circleclick3" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle5" fill="#fdfdfd" layoutX="250.0" layoutY="245.0" onMouseClicked="#circleclick5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle7" fill="#fdfdfd" layoutX="250.0" layoutY="315.0" onMouseClicked="#circleclick7" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle9" fill="#fdfdfd" layoutX="250.0" layoutY="385.0" onMouseClicked="#circleclick9" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle2" fill="#fdfdfd" layoutX="230.0" layoutY="140.0" onMouseClicked="#circleclick2" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle1" fill="#fdfdfd" layoutX="250.0" layoutY="105.0" onMouseClicked="#circleclick1" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Line fx:id="line24" endX="30.0" endY="-1.0" layoutX="310.0" layoutY="70.0" onMouseClicked="#lineClick24" startX="10.0" startY="-1.0" stroke="BLACK" strokeWidth="6.0" />
+        <Line fx:id="line14" endX="25.0" endY="-6.0" layoutX="279.0" layoutY="84.0" onMouseClicked="#lineClick14" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line25" endX="30.0" endY="-1.0" layoutX="310.0" layoutY="140.0" onMouseClicked="#lineClick25" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line30" endX="30.0" layoutX="337.0" layoutY="96.0" onMouseClicked="#lineClick30" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line26" endX="30.0" endY="-1.0" layoutX="310.0" layoutY="210.0" onMouseClicked="#lineClick26" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line27" endX="30.0" endY="-1.0" layoutX="310.0" layoutY="280.0" onMouseClicked="#lineClick27" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line15" endX="30.0" layoutX="275.0" layoutY="132.0" onMouseClicked="#lineClick15" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line31" endX="25.0" endY="-6.0" layoutX="342.0" layoutY="121.0" onMouseClicked="#lineClick31" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line28" endX="30.0" endY="-1.0" layoutX="310.0" layoutY="350.0" onMouseClicked="#lineClick28" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line29" endX="30.0" endY="-1.0" layoutX="310.0" layoutY="420.0" onMouseClicked="#lineClick29" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line17" endX="30.0" layoutX="275.0" layoutY="202.0" onMouseClicked="#lineClick17" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line33" endX="25.0" endY="-6.0" layoutX="342.0" layoutY="191.0" onMouseClicked="#lineClick3" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line20" endX="25.0" endY="-6.0" layoutX="279.0" layoutY="294.0" onMouseClicked="#lineClick20" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line18" endX="25.0" endY="-6.0" layoutX="279.0" layoutY="224.0" onMouseClicked="#lineClick18" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line16" endX="25.0" endY="-6.0" layoutX="279.0" layoutY="154.0" onMouseClicked="#lineClick16" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line22" endX="25.0" endY="-6.0" layoutX="279.0" layoutY="364.0" onMouseClicked="#lineClick22" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line32" endX="30.0" layoutX="337.0" layoutY="166.0" onMouseClicked="#lineClick32" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line34" endX="30.0" layoutX="342.0" layoutY="236.0" onMouseClicked="#lineClick34" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line36" endX="30.0" layoutX="337.0" layoutY="306.0" onMouseClicked="#lineClick36" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line38" endX="30.0" layoutX="337.0" layoutY="376.0" onMouseClicked="#lineClick38" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line19" endX="30.0" layoutX="275.0" layoutY="272.0" onMouseClicked="#lineClick19" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line21" endX="30.0" layoutX="275.0" layoutY="342.0" onMouseClicked="#lineClick21" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line23" endX="30.0" layoutX="275.0" layoutY="412.0" onMouseClicked="#lineClick23" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line35" endX="25.0" endY="-6.0" layoutX="342.0" layoutY="261.0" onMouseClicked="#lineClick35" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line37" endX="25.0" endY="-6.0" layoutX="342.0" layoutY="331.0" onMouseClicked="#lineClick37" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line39" endX="25.0" endY="-6.0" layoutX="342.0" layoutY="401.0" onMouseClicked="#lineClick39" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line40" endX="30.0" endY="-1.0" layoutX="370.0" layoutY="105.0" onMouseClicked="#lineClick40" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line41" endX="30.0" endY="-1.0" layoutX="370.0" layoutY="175.0" onMouseClicked="#lineClick41" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line42" endX="30.0" endY="-1.0" layoutX="370.0" layoutY="245.0" onMouseClicked="#lineClick42" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line43" endX="30.0" endY="-1.0" layoutX="370.0" layoutY="315.0" onMouseClicked="#lineClick43" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line44" endX="30.0" endY="-1.0" layoutX="370.0" layoutY="385.0" onMouseClicked="#lineClick44" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line46" endX="25.0" endY="-6.0" layoutX="400.0" layoutY="155.0" onMouseClicked="#lineClick46" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line45" endX="30.0" layoutX="397.0" layoutY="131.0" onMouseClicked="#lineClick45" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line47" endX="30.0" layoutX="397.0" layoutY="201.0" onMouseClicked="#lineClick47" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line49" endX="30.0" layoutX="397.0" layoutY="271.0" onMouseClicked="#lineClick49" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line51" endX="30.0" layoutX="397.0" layoutY="341.0" onMouseClicked="#lineClick51" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line48" endX="25.0" endY="-6.0" layoutX="400.0" layoutY="225.0" onMouseClicked="#lineClick48" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line50" endX="25.0" endY="-6.0" layoutX="400.0" layoutY="295.0" onMouseClicked="#lineClick50" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line52" endX="25.0" endY="-6.0" layoutX="400.0" layoutY="365.0" onMouseClicked="#lineClick52" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line1" endX="25.0" endY="-6.0" layoutX="222.0" layoutY="121.0" onMouseClicked="#lineClick1" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line3" endX="25.0" endY="-6.0" layoutX="222.0" layoutY="191.0" onMouseClicked="#lineClick3" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line4" endX="30.0" layoutX="217.0" layoutY="236.0" onMouseClicked="#lineClick4" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line6" endX="30.0" layoutX="217.0" layoutY="306.0" onMouseClicked="#lineClick6" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line8" endX="30.0" layoutX="217.0" layoutY="376.0" onMouseClicked="#lineClick8" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Line fx:id="line5" endX="25.0" endY="-6.0" layoutX="222.0" layoutY="261.0" onMouseClicked="#lineClick5" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line7" endX="25.0" endY="-6.0" layoutX="222.0" layoutY="331.0" onMouseClicked="#lineClick7" startX="15.0" startY="12.0" strokeWidth="6.0" />
+        <Line fx:id="line9" endX="30.0" endY="-1.0" layoutX="250.0" layoutY="105.0" onMouseClicked="#lineClick9" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line10" endX="30.0" endY="-1.0" layoutX="250.0" layoutY="175.0" onMouseClicked="#lineClick10" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line11" endX="30.0" endY="-1.0" layoutX="250.0" layoutY="245.0" onMouseClicked="#lineClick11" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line12" endX="30.0" endY="-1.0" layoutX="250.0" layoutY="315.0" onMouseClicked="#lineClick12" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line13" endX="30.0" endY="-1.0" layoutX="250.0" layoutY="385.0" onMouseClicked="#lineClick13" startX="10.0" startY="-1.0" strokeWidth="6.0" />
+        <Line fx:id="line2" endX="30.0" layoutX="215.0" layoutY="167.0" onMouseClicked="#lineClick2" startX="20.0" startY="-18.0" strokeWidth="6.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f2f3f4" height="61.0" layoutX="31.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" width="127.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f2f3f4" height="61.0" layoutX="169.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" width="127.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f2f3f4" height="61.0" layoutX="310.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" width="127.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f2f3f4" height="61.0" layoutX="443.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" width="127.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="176.0" layoutX="23.0" layoutY="541.0" stroke="BLACK" strokeType="INSIDE" width="691.0" />
+        <Button fx:id="Startlogic" layoutX="40.0" layoutY="40.0" mnemonicParsing="false" text="Start" />
+        <Button fx:id="getCocotailes" layoutX="439.0" layoutY="548.0" mnemonicParsing="false" onMouseClicked="#ClickCocotailes" text="Cocotailes" />
+        <Button fx:id="GhostCaptainMove" layoutX="541.0" layoutY="548.0" mnemonicParsing="false" onMouseClicked="#ClickGhostCaptainMove" text="GhostCaptainMove" />
+        <Button fx:id="NextplayerButton" layoutX="37.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#clickNextplayerButton" text="Nextplayer" />
+        <Button fx:id="switch1" layoutX="62.0" layoutY="479.0" mnemonicParsing="false" onMouseClicked="#clickSwitch1" prefHeight="23.0" prefWidth="65.0" text="Switch1" />
+        <Button fx:id="switch2" layoutX="188.0" layoutY="479.0" mnemonicParsing="false" onMouseClicked="#ClickSwitch2" prefHeight="23.0" prefWidth="65.0" text="Switch2" />
+        <Button fx:id="switch3" layoutX="340.0" layoutY="479.0" mnemonicParsing="false" onMouseClicked="#ClickSwitch3" prefHeight="23.0" prefWidth="65.0" text="Switch3" />
+        <Button fx:id="switch4" layoutX="476.0" layoutY="479.0" mnemonicParsing="false" onMouseClicked="#ClickSwitch4" prefHeight="23.0" prefWidth="65.0" text="Switch4" />
+        <Button fx:id="switch6" layoutX="110.0" layoutY="567.0" mnemonicParsing="false" onMouseClicked="#ClickSwitch6" text="Switch6" />
+        <Button fx:id="switch7" layoutX="110.0" layoutY="597.0" mnemonicParsing="false" onMouseClicked="#ClickSwitch7" text="Switch7" />
+        <Button fx:id="switch9" layoutX="240.0" layoutY="566.0" mnemonicParsing="false" onMouseClicked="#ClickSwitch9" text="Switch9" />
+        <Button fx:id="switch10" layoutX="240.0" layoutY="597.0" mnemonicParsing="false" onMouseClicked="#ClickSwitch10" text="Switch10" />
+        <Button fx:id="switch8" layoutX="111.0" layoutY="629.0" mnemonicParsing="false" onMouseClicked="#ClickSwitch8" text="Switch8" />
+        <Button fx:id="Ghost2" layoutX="242.0" layoutY="133.0" mnemonicParsing="false" onMouseClicked="#ClickGhost2" text="Ghost" />
+        <Button fx:id="Ghost1" layoutX="306.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#ClickGhost1" text="Ghost" />
+        <Button fx:id="Ghost3" layoutX="366.0" layoutY="133.0" mnemonicParsing="false" onMouseClicked="#ClickGhost3" text="Ghost" />
+        <Button fx:id="Ghost4" layoutX="306.0" layoutY="169.0" mnemonicParsing="false" onMouseClicked="#ClickGhost4" text="Ghost" />
+        <Button fx:id="Ghost5" layoutX="246.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#ClickGhost5" text="Ghost" />
+        <Button fx:id="Ghost6" layoutX="368.0" layoutY="208.0" mnemonicParsing="false" onMouseClicked="#ClickGhost6" text="Ghost" />
+        <Button fx:id="Ghost7" layoutX="245.0" layoutY="276.0" mnemonicParsing="false" onMouseClicked="#ClickGhost7" text="Ghost" />
+        <Button fx:id="Ghost8" layoutX="368.0" layoutY="278.0" mnemonicParsing="false" onMouseClicked="#ClickGhost8" text="Ghost" />
+        <Button fx:id="Ghost9" layoutX="308.0" layoutY="309.0" mnemonicParsing="false" onMouseClicked="#ClickGhost9" text="Ghost" />
+        <Button fx:id="Ghost110" layoutX="245.0" layoutY="343.0" mnemonicParsing="false" onMouseClicked="#ClickGhost10" text="Ghost" />
+        <Button fx:id="Ghost12" layoutX="307.0" layoutY="383.0" mnemonicParsing="false" onMouseClicked="#ClickGhost12" text="Ghost" />
+        <Button fx:id="Ghost11" layoutX="365.0" layoutY="348.0" mnemonicParsing="false" onMouseClicked="#ClickGhost11" text="Ghost" />
+        <Text fx:id="Market1" layoutX="59.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARKET1" />
+        <Text fx:id="Market2" layoutX="193.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARKET2" />
+        <Text fx:id="Market3" layoutX="343.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARKET3" />
+        <Text fx:id="Market4" layoutX="481.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARKET4" />
+        <Text fx:id="playername" layoutX="30.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYER" wrappingWidth="190.5" />
+        <Label fx:id="dice" layoutX="32.0" layoutY="126.0" onMouseClicked="#DiceClick" prefHeight="86.0" prefWidth="98.0" text="ClickHereToRoll" />
+        <Text fx:id="Goats" layoutX="33.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" text="goats" />
+        <Text fx:id="Wood" layoutX="192.0" layoutY="583.0" strokeType="OUTSIDE" strokeWidth="0.0" text="wood" />
+        <Text fx:id="Gold" layoutX="195.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" text="gold" />
+        <Text fx:id="Molasses" layoutX="35.0" layoutY="645.0" strokeType="OUTSIDE" strokeWidth="0.0" text="molasses" />
+        <Text fx:id="winlogic" layoutX="38.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Win/notwin" wrappingWidth="146.2402572631836" />
+        <Text layoutX="306.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(3)Wood" />
+        <Text layoutX="255.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(4)CL" />
+        <Text layoutX="378.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(1)CL" />
+        <Text layoutX="311.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(5)Gold" />
+        <Text layoutX="245.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(1)Wood" />
+        <Text layoutX="366.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(2)Wood" />
+        <Text layoutX="373.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(1)Goat" />
+        <Text layoutX="308.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(3)Gold" />
+        <Text layoutX="250.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(2)Goat" />
+        <Text layoutX="258.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(4)ML" />
+        <Text layoutX="312.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(5)Goat" />
+        <Text layoutX="378.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(2)ML" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f2f3f4" height="61.0" layoutX="587.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" width="127.0" />
+        <Text fx:id="Market5" layoutX="622.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARKET5" />
+        <Button fx:id="switch5" layoutX="617.0" layoutY="479.0" mnemonicParsing="false" onMouseClicked="#ClickSwitch5" prefHeight="23.0" prefWidth="65.0" text="Switch5" />
+        <Text fx:id="Culasses" layoutX="35.0" layoutY="583.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cutlasses" />
+    </children>
+</AnchorPane>

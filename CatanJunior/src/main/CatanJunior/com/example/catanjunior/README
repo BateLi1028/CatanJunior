@@ -1,0 +1,19 @@
+We used javafx to complete this design using JDK17.
+The gameplay is as follows: enter the game, the display interface is the birthplace of player1,
+and the interface on the lower part of the board shows the name of player1 and the resources it owns.
+
+Clickheretoroll: Roll the dice to get points
+
+Nextplayer button: Change the name of the player below and the number of resources he has, and change the color that different players use to change the color of the circle and line when you click to build.
+
+Buildlayer: Use a cutlass, a moles, a goat and a wood to change the color of a circle. This button can only be clicked when the building conditions are met. After the button is clicked, it can be built. Each player has the same round without changing the color of the line. Only one circle can be discolored.
+
+Buildship: Use a goat and a wood to change the color of a line. This button can only be clicked when the building conditions are met. After the button is clicked, it can be built. Each player can only use the same round without changing the color of the circle. One line changes color. Each time you click nextolayer, when you can click buildlayer and buildship at the same time, you can only choose one.
+
+The rules of the board: when each player builds a circle, there must be a line of its own color next to it, and when building a line, it must have a circle of its own color next to it. (Optional, you can let the player build manually according to the rules). According to the result of the dice, provide resources for the player on the side of the corresponding result map block. A circle or timeline provides a unit of resources.
+
+The functions we have implemented are: 1. Change four different players according to the end of the round (NextPlayer). 2. Show the number of resources each player currently has. 3. Build pirate lairs and pirate ships. 4. Use your own resources to exchange with resources in the market. 5. Get resources based on different dice points
+
+Entering the game, player1 first throws the dice, and then gets resources based on different dice points. A player can purchase one of the pirate lair and the pirate bed in his turn, or exchange materials with the market. After that, he ends his round to the next player.
+
+
